@@ -1,0 +1,35 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Logs
+*.log
+
+# Rider IDE
+.idea/
+
+# ASP.NET Core
+appsettings.*.json          # لو تحب تحفظ الإعدادات المحلية، ممكن تعدل
+wwwroot/                    # لا ترفع ملفات البناء/نشر الثابتة
+*.db                        # قواعد بيانات محلية
+*.bak                       # نسخ احتياطية
+
+# Docker (لو تستخدمه)
+docker-compose.override.yml
+Dockerfile
+*.dockerfile
+
+# Node (لو فيه frontend)
+node_modules/
+
+# Others
+*.DS_Store
+*.env                       # ملفات البيئة الخاصة، مثل مفاتيح API
